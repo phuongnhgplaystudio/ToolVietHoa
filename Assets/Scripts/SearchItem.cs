@@ -1,10 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Text;
-using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Windows;
 
 public class SearchItem : MonoBehaviour
 {
