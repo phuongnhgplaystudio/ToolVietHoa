@@ -26,6 +26,7 @@ public class ContentData
         _version = version;
         _content = content;
         _parentNode = parentNode;
+        preCalculate = new SearchPreCalculate(content);
     }
 }
 [Serializable]
