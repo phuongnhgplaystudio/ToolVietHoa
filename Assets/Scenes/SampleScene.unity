@@ -4427,8 +4427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed76ccc4f387e684d803ecfba82fbc20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalPath: 
-  resultPath: 
+  confirmButton: {fileID: 1601487162}
   stringList:
   - I will be the last one.
   - Tomorrow, the sun will rise.
@@ -4444,6 +4443,7 @@ MonoBehaviour:
   - "Anh y\xEAu em l\u1EAFm em bi\u1EBFt kh\xF4ng ?"
   - "M\xE0y b\u1ECB \u0111i\xEAn \xE0 ? Tao kh\xF4ng c\u1EA7n bi\u1EBFt !!!"
   - "M\u1ED9t hai ba ... t\u1EA5t c\u1EA3 c\xF3 ba quy\u1EC3n s\xE1ch."
+  allData: []
 --- !u!1 &2087353737
 GameObject:
   m_ObjectHideFlags: 0
