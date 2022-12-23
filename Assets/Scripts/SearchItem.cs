@@ -17,6 +17,7 @@ public class SearchItem : MonoBehaviour
     }
     public void Setup(int index, string text, string targetText = null)
     {
+        gameObject.SetActive(true);
         this.index = index;
         if(targetText != null)
         {
