@@ -38,10 +38,10 @@ public class GameController: MonoBehaviour
     {
         rootDocument = new XmlDocument();
         allData = new List<ContentData>();
-        LoadDataFromPath(@"D:\program\ExportTool-v1.15.14\ExportTool-v1.15.14\englishPak\Localization\English\english.xml");
-        allData[1].Content = "<ÁBDKASJDH>";
-        xmlBridge.SaveToPath(@"D:\program\ExportTool-v1.15.14\ExportTool-v1.15.14\assetrPAK\abc.xml",rootDocument);
-
+        LoadDataFromPath(@"D:\Programs\ExportTool-v1.15.14\EnglishXML\Localization\English\english.xml");
+        allData[1].Content = "<Tao b? ?iên oke??>";
+        Debug.Log(allData[1].Content);
+        xmlBridge.SaveToPath(@"D:\Programs\ExportTool-v1.15.14\EnglishMy\My.xml", rootDocument);
     }
 
     public void LoadDataFromPath(string path)
